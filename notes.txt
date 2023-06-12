@@ -1,0 +1,15 @@
+
+first when keypress is encountered if game has not started it will start the game using startGame() function
+if game has not started nothing will happen
+
+startGame() function -> actually generates the next button that should be pressed next in the sequence
+displays all the buttons that should be displayed in the current sequence
+
+then document will wait for click in button in the document
+the click is stored 
+if the click is incorrect to the required level then startover()
+otherwise continue storing the clicks 
+if the userclick.length equals the generated game sequence then I can go over to the next level
+
+
+Set time out function does not work with for loop 
